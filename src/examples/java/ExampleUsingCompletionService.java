@@ -17,15 +17,15 @@
  * limitations under the License.
  */
 
-import org.soulwing.snmp.BlockingQueueSnmpCompletionService;
-import org.soulwing.snmp.Mib;
-import org.soulwing.snmp.MibFactory;
-import org.soulwing.snmp.SimpleSnmpV2cTarget;
-import org.soulwing.snmp.SnmpCompletionService;
-import org.soulwing.snmp.SnmpEvent;
-import org.soulwing.snmp.SnmpFactory;
-import org.soulwing.snmp.SnmpOperation;
-import org.soulwing.snmp.VarbindCollection;
+import com.hypofluid.snmp.BlockingQueueSnmpCompletionService;
+import com.hypofluid.snmp.Mib;
+import com.hypofluid.snmp.MibFactory;
+import com.hypofluid.snmp.SimpleSnmpV2cTarget;
+import com.hypofluid.snmp.SnmpCompletionService;
+import com.hypofluid.snmp.SnmpEvent;
+import com.hypofluid.snmp.SnmpFactory;
+import com.hypofluid.snmp.SnmpOperation;
+import com.hypofluid.snmp.VarbindCollection;
 
 /**
  * An example that illustrates the use of {@link SnmpCompletionService}

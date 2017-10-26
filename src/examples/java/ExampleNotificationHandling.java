@@ -17,18 +17,18 @@
  * limitations under the License.
  */
 
-import org.soulwing.snmp.Mib;
-import org.soulwing.snmp.MibFactory;
-import org.soulwing.snmp.SimpleSnmpV2cTarget;
-import org.soulwing.snmp.SnmpCallback;
-import org.soulwing.snmp.SnmpContext;
-import org.soulwing.snmp.SnmpEvent;
-import org.soulwing.snmp.SnmpException;
-import org.soulwing.snmp.SnmpFactory;
-import org.soulwing.snmp.SnmpListener;
-import org.soulwing.snmp.SnmpNotificationEvent;
-import org.soulwing.snmp.SnmpNotificationHandler;
-import org.soulwing.snmp.VarbindCollection;
+import com.hypofluid.snmp.Mib;
+import com.hypofluid.snmp.MibFactory;
+import com.hypofluid.snmp.SimpleSnmpV2cTarget;
+import com.hypofluid.snmp.SnmpCallback;
+import com.hypofluid.snmp.SnmpContext;
+import com.hypofluid.snmp.SnmpEvent;
+import com.hypofluid.snmp.SnmpException;
+import com.hypofluid.snmp.SnmpFactory;
+import com.hypofluid.snmp.SnmpListener;
+import com.hypofluid.snmp.SnmpNotificationEvent;
+import com.hypofluid.snmp.SnmpNotificationHandler;
+import com.hypofluid.snmp.VarbindCollection;
 
 /**
  * An example that shows how to perform a GETNEXT operation asynchronously.

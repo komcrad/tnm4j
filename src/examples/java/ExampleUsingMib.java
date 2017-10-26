@@ -17,12 +17,12 @@
  * limitations under the License.
  */
 
-import org.soulwing.snmp.Mib;
-import org.soulwing.snmp.MibFactory;
-import org.soulwing.snmp.SimpleSnmpV2cTarget;
-import org.soulwing.snmp.SnmpContext;
-import org.soulwing.snmp.SnmpFactory;
-import org.soulwing.snmp.VarbindCollection;
+import com.hypofluid.snmp.Mib;
+import com.hypofluid.snmp.MibFactory;
+import com.hypofluid.snmp.SimpleSnmpV2cTarget;
+import com.hypofluid.snmp.SnmpContext;
+import com.hypofluid.snmp.SnmpFactory;
+import com.hypofluid.snmp.VarbindCollection;
 
 /**
  * An example that shows how to use a MIB to perform a GETNEXT operation using

@@ -1,1 +1,1 @@
-org.soulwing.snmp.provider.snmp4j.Snmp4jProvider
+com.hypofluid.snmp.provider.snmp4j.Snmp4jProvider

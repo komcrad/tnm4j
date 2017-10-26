@@ -19,7 +19,7 @@
 
 import java.util.List;
 
-import org.soulwing.snmp.*;
+import com.hypofluid.snmp.*;
 
 /**
  * An example that show how to retrieve the contents of a table using GETBULK.

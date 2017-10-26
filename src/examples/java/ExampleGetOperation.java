@@ -17,10 +17,10 @@
  * limitations under the License.
  */
 
-import org.soulwing.snmp.SimpleSnmpV2cTarget;
-import org.soulwing.snmp.SnmpContext;
-import org.soulwing.snmp.SnmpFactory;
-import org.soulwing.snmp.VarbindCollection;
+import com.hypofluid.snmp.SimpleSnmpV2cTarget;
+import com.hypofluid.snmp.SnmpContext;
+import com.hypofluid.snmp.SnmpFactory;
+import com.hypofluid.snmp.VarbindCollection;
 
 /**
  * An example that shows a simple GET operation using the numeric object
