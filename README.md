@@ -5,6 +5,9 @@ tnm4j
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.soulwing.snmp/tnm4j/badge.svg)](http://search.maven.org/#search%7Cga%7C1%7Cg%3Aorg.soulwing.snmp%20a%3Atnm4j*)
 
 
+This repo has been repackaged to deploy a specific patch regarding snmpv3 to maven central so I could meet a deadline.
+For public use; use [soulwing/tnm4j]("https://github.com/soulwing/tnm4j")
+
 A simplified SNMP API for Java, inspired by Jürgen Schönwälder's Tnm
 extension for Tcl.  
 
