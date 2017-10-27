@@ -7,7 +7,7 @@
   </parent>
   <groupId>com.github.komcrad.snmp</groupId>
   <artifactId>tnm4j</artifactId>
-  <version>1.0.7</version>
+  <version>1.0.8</version>
   <name>${project.artifactId}</name>
   <description>A simplified SNMP API for Java, inspired by Jürgen Schönwälder's Tnm extension for Tcl.</description>
   <inceptionYear>2012</inceptionYear>
