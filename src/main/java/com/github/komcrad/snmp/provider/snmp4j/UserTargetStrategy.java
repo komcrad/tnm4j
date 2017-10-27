@@ -45,12 +45,12 @@ import com.github.komcrad.snmp.SnmpV3Target;
  * @author Carl Harris
  */
 class UserTargetStrategy implements TargetStrategy {
-  private static final OctetString localEngineId = new OctetString(MPv3.createLocalEngineID());
-  private static final USM usm = new USM(SecurityProtocols.getInstance(),
-      localEngineId, 0);
 
   @Override
   public Target newTarget(SnmpTarget target) {
+	OctetString localEngineId = new OctetString(MPv3.createLocalEngineID());
+	USM usm = new USM(SecurityProtocols.getInstance(),
+		localEngineId, 0);
     if (!(target instanceof SnmpV3Target)) return null;
     SnmpV3Target v3Target = (SnmpV3Target) target;
     Assert.notNull(v3Target.getSecurityName(), "securityName is required");
